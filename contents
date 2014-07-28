@@ -1,0 +1,29 @@
+About
+Status
+Intended audience
+Structure of this document
+JavaScript and Node.js
+JavaScript and You
+A word of warning
+Server-side JavaScript
+“Hello World”
+A full blown web application with Node.js
+The use cases
+The application stack
+Building the application stack
+A basic HTTP server
+Analyzing our HTTP server
+Passing functions around
+How function passing makes our HTTP server work
+Event-driven asynchronous callbacks
+How our server handles requests
+Finding a place for our server module
+What’s needed to “route” requests?
+Execution in the kingdom of verbs
+Routing to real request handlers
+Making the request handlers respond
+Serving something useful
+Handling POST requests
+Handling file uploads
+Conclusion and outlook
+
