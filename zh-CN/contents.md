@@ -17,12 +17,12 @@
 3. 一个用node.js实现的web应用程序
 ----
 - 3.1. 用例要求
-- 3.2. 应用实现步骤
+- 3.2. 应用开发规划
 
-4. Building the application stack
+4. 应用开发实现
 ----
-- 4.1. A basic HTTP server
-- 4.2. Analyzing our HTTP server
+- 4.1. 一个简单的http服务
+- 4.2. 分析http服务
 - 4.3. Passing functions around
 - 4.4. How function passing makes our HTTP server work
 - 4.5. Event-driven asynchronous callbacks
@@ -38,3 +38,11 @@
 
 5. Conclusion and outlook
 ----
+
+
+
+:Authors: 
+    M.R.Z(https://github.com/GdZ)
+
+:Version: 
+    1.0 of 2014/07/29
