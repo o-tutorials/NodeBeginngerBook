@@ -23,12 +23,12 @@
 ----
 - 4.1. 一个简单的http服务
 - 4.2. 分析http服务
-- 4.3. Passing functions around
-- 4.4. How function passing makes our HTTP server work
-- 4.5. Event-driven asynchronous callbacks
-- 4.6. How our server handles requests
-- 4.7. Finding a place for our server module
-- 4.8. What’s needed to “route” requests?
+- 4.3. 函数参数传递
+- 4.4. 函数传递在http服务中的应用实例
+- 4.5. 事件驱动的异步回调
+- 4.6. 服务器如何处理请求
+- 4.7. 封装一个server模块
+- 4.8. 如何解析路径
 - 4.9. Execution in the kingdom of verbs
 - 4.10. Routing to real request handlers
 - 4.11. Making the request handlers respond
@@ -41,8 +41,12 @@
 
 
 
-:Authors: 
-    M.R.Z(https://github.com/GdZ)
+---
 
-:Version: 
-    1.0 of 2014/07/29
+via: 
+
+本文由 [M.R.Z](https://github.com/GdZ/NodeBeginnerBook) 原创翻译
+
+译者：[M.R.Z](https://github.com/GdZ)
+
+校对：[校对者ID](https://github.com/校对者ID)
