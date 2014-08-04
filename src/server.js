@@ -10,16 +10,21 @@ var Log = require("./Log");
 var debug = Log.isDebug();
 var TAG = "server.js";
 
-function start(route){
+function start(route, handle){
 	Log.d(TAG, "start Create a Server, port 8888");
-	http.createServer(function onRequest(request, response) {
+	function onRequest(request, response) {
 		var pathname = url.parse(request.url).pathname;
 		Log.d(TAG, "onRequest URL:" + pathname + " request.");
-		route(pathname);
+
+		var content = route(handle, pathname);
+
 		response.writeHead(200, {"Content-Type":"text/plain"});
-		response.write("This is a test");
+		response.write(content);
 		response.end();
-	}).listen(8888);
+	}
+	http.createServer(onRequest).listen(8888);
+	Log.d(TAG, "Server has started.");
 }
 
 exports.start = start;
+
