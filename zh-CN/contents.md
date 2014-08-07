@@ -31,10 +31,10 @@
 - 4.8. 如何解析路径
 - 4.9. Execution in the kingdom of verbs
 - 4.10. Routing to real request handlers
-- 4.11. Making the request handlers respond
-- 4.12. Serving something useful
-- 4.13. Handling POST requests
-- 4.14. Handling file uploads
+- 4.11. 创建请求响应机制
+- 4.12. 一些有用的建议
+- 4.13. 处理POST请求
+- 4.14. 处理文件上传
 
 5. Conclusion and outlook
 ----

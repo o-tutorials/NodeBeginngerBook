@@ -11,6 +11,7 @@ var handle = {};
 // init handle
 handle["/"] = requestHandlers.start;
 handle["/start"] = requestHandlers.start;
+handle["/starts"] = requestHandlers.starts;
 handle["/upload"] = requestHandlers.upload;
 
 Log.d(TAG, "server will start.");
