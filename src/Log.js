@@ -8,8 +8,8 @@ function keep2(v){
 function timeTag(){
 	var tmp = new Date();
 	return (tmp.getFullYear()
-				+ "." + keep2(tmp.getMonth()+1)
-				+ "." + keep2(tmp.getDate())
+				+ "-" + keep2(tmp.getMonth()+1)
+				+ "-" + keep2(tmp.getDate())
 				+ " " + keep2(tmp.getHours())
 				+ ":" + keep2(tmp.getMinutes())
 				+ ":" + keep2(tmp.getSeconds())
