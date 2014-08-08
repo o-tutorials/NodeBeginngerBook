@@ -30,7 +30,7 @@
 - 4.7. 封装一个server模块
 - 4.8. 如何解析路径
 - 4.9. Execution in the kingdom of verbs
-- 4.10. Routing to real request handlers
+- 4.10. 路由转化为实际请求
 - 4.11. Making the request handlers respond
 - 4.12. Serving something useful
 - 4.13. Handling POST requests
