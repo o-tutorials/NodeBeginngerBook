@@ -13,7 +13,9 @@ handle["/"] = requestHandlers.start;
 handle["/start"] = requestHandlers.start;
 handle["/starts"] = requestHandlers.starts;
 handle["/upload"] = requestHandlers.upload;
+handle["/show"] = requestHandlers.show;
 
 Log.d(TAG, "server will start.");
+Log.d(TAG, "num:" + (1-0.1*7));
 server.start(router.route, handle);
 

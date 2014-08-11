@@ -15,8 +15,9 @@ function start(route, handle){
 	Log.d(TAG, "start Create a Server, port 8888");
 	function onRequest(request, response) {
 		var pathname = url.parse(request.url).pathname;
-		var postData = "";
 		Log.d(TAG, "onRequest URL:" + pathname + " request.");
+		/*********
+		var postData = "";
 
 		request.setEncoding("utf8");
 
@@ -29,6 +30,8 @@ function start(route, handle){
 			Log.d(TAG, "end.Listener");
 			route(handle, pathname, response, postData);
 		});
+		**********/
+		route(handle, pathname, response, request);
 	}
 
 	http.createServer(onRequest).listen(8888);
